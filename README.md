@@ -2,24 +2,28 @@ A cheap, 3D printed absolute position encoder knob based on a low-cost AS5600 br
 
 <img src="docs/demo.gif"/>
 
-Note: R1 is removed on the AS5600 module in order to run it at 5V instead of 3.3V, which I found was more reliable and stable. No level-shifting is needed to connect to an ESP32 at 3.3V since it uses I2C.
-
-Demo firmware using a TTGO T-Display ESP32 board is provided.
+<a href="https://github.com/scottbez1/AS5600Knob/tree/master/src">Demo firmware</a> using a TTGO T-Display ESP32 board is provided (PlatformIO Arduino).
 
 See how it works:
 
-<a href="https://www.youtube.com/watch?v=Ww0m7PPZYXU"><img src="https://img.youtube.com/vi/Ww0m7PPZYXU/mqdefault.jpg"/></a>
+<a href="https://www.youtube.com/watch?v=Ww0m7PPZYXU"><img src="https://img.youtube.com/vi/Ww0m7PPZYXU/mqdefault.jpg" /></a>
 
 # Parts needed
 - AS5600 module (R1 removed to run at 5V)
 - 4x M3x6 screws with countersunk head
 - 608 "skateboard" bearing
+- 4mmx2mm axial magnet
 - 3D printed parts (see below)
+
+
+Note: R1 is removed on the AS5600 module in order to run it at 5V instead of 3.3V, which I found was more reliable and stable. No level-shifting is needed to connect to an ESP32 at 3.3V since it uses I2C.
+
+I used a 4mm axial magnet instead of a diametric magnet because the AS5600 module I bought didn't come with a proper diametric magnet. You could modify the design to mount a diametric magnet aligned axially with the knob instead, if you have one.
 
 # 3D Printed Parts
 <img src="docs/assembly.png" width="300" />
 
-Download the Fusion 360 design file [here](https://github.com/scottbez1/AS5600Knob/raw/master/as5600Knob%20v23.f3d) or [preview it in your browser](https://a360.co/3juvdKy).
+Download the Fusion 360 design file <a href="https://github.com/scottbez1/AS5600Knob/raw/master/as5600Knob%20v23.f3d" target="_blank">here</a> or <a href="https://a360.co/3juvdKy" target="_blank">preview it in your browser</a>.
 
 ## Base Plate
 <img src="docs/base_plate.png" width="300" />
