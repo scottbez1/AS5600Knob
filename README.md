@@ -1,10 +1,14 @@
 A cheap, 3D printed absolute position encoder knob based on a low-cost AS5600 breakout module.
 
-![Demo gif](docs/demo.gif)
+<img src="docs/demo.gif"/>
 
 Note: R1 is removed on the AS5600 module in order to run it at 5V instead of 3.3V, which I found was more reliable and stable. No level-shifting is needed to connect to an ESP32 at 3.3V since it uses I2C.
 
 Demo firmware using a TTGO T-Display ESP32 board is provided.
+
+See how it works:
+
+<a href="https://www.youtube.com/watch?v=Ww0m7PPZYXU"><img src="https://img.youtube.com/vi/Ww0m7PPZYXU/mqdefault.jpg"/></a>
 
 # Parts needed
 - AS5600 module (R1 removed to run at 5V)
@@ -13,22 +17,25 @@ Demo firmware using a TTGO T-Display ESP32 board is provided.
 - 3D printed parts (see below)
 
 # 3D Printed Parts
-![Full assembly](docs/assembly.png)
+<img src="docs/assembly.png" width="300" />
 
-Download the Fusion 360 design file [here](as5600Knob v23.f3d).
+Download the Fusion 360 design file [here](https://github.com/scottbez1/AS5600Knob/raw/master/as5600Knob%20v23.f3d).
 
 ## Base Plate
-![Base Plate](docs/base_plate.png)
+<img src="docs/base_plate.png" width="300" />
+
 Print settings:
 - 0.2mm layers
 
 ## Bearing Mount
-![Bearing Mount](docs/bearing_mount.png)
+<img src="docs/bearing_mount.png" width="300" />
+
 Print settings:
 - 0.15mm layers (finer layers for small details of tabs)
 
 ## Knob
-![Knob](docs/knob.png)
+<img src="docs/knob.png" width="300" />
+
 Print settings:
 - Seam: rear (seam is aligned with index notch to reduce visibility)
 - 0.2mm lyaers
