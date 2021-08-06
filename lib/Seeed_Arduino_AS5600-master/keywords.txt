@@ -1,0 +1,31 @@
+  
+#######################################
+# Syntax Coloring Map For 
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+setMaxAngle		KEYWORD2
+getMaxAngle		KEYWORD2
+setStartPosition		KEYWORD2
+getStartPosition		KEYWORD2
+setEndPosition  	KEYWORD2
+getEndPosition		KEYWORD2
+getRawAngle 	KEYWORD2
+getScaledAngle	KEYWORD2
+detectMagnet	KEYWORD2
+getMagnetStrength	KEYWORD2
+getAgc  	KEYWORD2
+getMagnitude		KEYWORD2
+getBurnCount		KEYWORD2
+burnAngle		KEYWORD2
+burnMaxAngleAndConfig		KEYWORD2
+setOutPut		KEYWORD2
+#######################################
+# Constants (LITERAL1)
+#######################################
