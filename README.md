@@ -19,7 +19,7 @@ See how it works:
 # 3D Printed Parts
 <img src="docs/assembly.png" width="300" />
 
-Download the Fusion 360 design file [here](https://github.com/scottbez1/AS5600Knob/raw/master/as5600Knob%20v23.f3d).
+Download the Fusion 360 design file [here](https://github.com/scottbez1/AS5600Knob/raw/master/as5600Knob%20v23.f3d) or [preview it in your browser](https://a360.co/3juvdKy).
 
 ## Base Plate
 <img src="docs/base_plate.png" width="300" />
