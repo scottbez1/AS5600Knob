@@ -52,6 +52,13 @@ Print settings:
 
 Download [STL file](https://github.com/scottbez1/AS5600Knob/blob/master/AS5600Knob.stl)
 
+# Notes
+
+- All of the dimensions were tuned to my 3D printer, so they may not work exactly, depending on how my printer's over/under-extrusion compares to yours
+- The M3 screws thread directly into the base plate, which isn't super strong. You could make the base plate thicker, widen the holes, and use captive nuts or threaded inserts for a more robust connection
+- You could decrease the diameter of the knob if you removed the external mounting holes from the base plate -- you could use longer M3 screws through the bearing mount, PCB, and base plate to mount it to something else directly instead
+- The Fusion 360 file is somewhat messy and isn't parametric; this was just as a quick hack, sorry!
+
 # License
 
 Copyright 2021 Scott Bezek
