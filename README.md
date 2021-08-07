@@ -31,11 +31,15 @@ Download the Fusion 360 design file <a href="https://github.com/scottbez1/AS5600
 Print settings:
 - 0.2mm layers
 
+Download [STL file](https://github.com/scottbez1/AS5600Knob/blob/master/AS5600BasePlate.stl)
+
 ## Bearing Mount
 <img src="docs/bearing_mount.png" width="300" />
 
 Print settings:
 - 0.15mm layers (finer layers for small details of tabs)
+
+Download [STL file](https://github.com/scottbez1/AS5600Knob/blob/master/AS5600BearingMount.stl)
 
 ## Knob
 <img src="docs/knob.png" width="300" />
@@ -44,7 +48,9 @@ Print settings:
 Print settings:
 - Seam: rear (seam is aligned with index notch to reduce visibility)
 - I used hilbert curve bottom infill for a cooler top surface pattern (see 2nd photo above)
-- 0.2mm lyaers
+- 0.2mm layers
+
+Download [STL file](https://github.com/scottbez1/AS5600Knob/blob/master/AS5600Knob.stl)
 
 # License
 
