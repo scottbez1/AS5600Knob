@@ -39,9 +39,11 @@ Print settings:
 
 ## Knob
 <img src="docs/knob.png" width="300" />
+<img src="docs/knob_infill.png" width="300" />
 
 Print settings:
 - Seam: rear (seam is aligned with index notch to reduce visibility)
+- I used hilbert curve bottom infill for a cooler top surface pattern (see 2nd photo above)
 - 0.2mm lyaers
 
 # License
