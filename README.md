@@ -12,6 +12,7 @@ See how it works:
 - AS5600 module (R1 removed to run at 5V)
 - 4x M3x6 screws with countersunk head
 - 608 "skateboard" bearing
+- small zip tie (~2mm wide)
 - 4mmx2mm axial magnet
 - 3D printed parts (see below)
 
