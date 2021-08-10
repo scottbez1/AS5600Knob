@@ -9,7 +9,7 @@ See how it works:
 <a href="https://www.youtube.com/watch?v=Ww0m7PPZYXU"><img src="https://img.youtube.com/vi/Ww0m7PPZYXU/mqdefault.jpg" /></a>
 
 # Parts needed
-- AS5600 module (R1 removed to run at 5V)
+- AS5600 module
 - 4x M3x6 screws with countersunk head
 - 608 "skateboard" bearing
 - small zip tie (~2mm wide)
@@ -17,7 +17,7 @@ See how it works:
 - 3D printed parts (see below)
 
 
-Note: R1 is removed on the AS5600 module in order to run it at 5V instead of 3.3V, which I found was more reliable and stable. I've gotten away without level-shifting when using a 3.3v I2C bus, but it's technically outside the spec (VIH minimum of 0.7\*VDD = 3.5V)
+Note: I found that removing R1 on the AS5600 module, which sets it for 5V operation, make the module more reliable and stable, but note that you will need a level-shifter to interface with a 3.3V microcontroller. Beware that the module has its own I2C pullups (R2 and R3) so if you power it from 5V it will apply 5V to the SDA and SCL pins, which could damage a 3.3V microcontroller.
 
 I used a 4mm axial magnet instead of a diametric magnet because the AS5600 module I bought didn't come with a proper diametric magnet. You could modify the design to mount a diametric magnet aligned axially with the knob instead, if you have one.
 
